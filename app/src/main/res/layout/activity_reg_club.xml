@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    app:cardElevation="10dp"><!--Слой поверх первого на уровне 10dp-->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <!--Поле ввода логина-->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/nameField"
+            android:hint="Название:"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailclubField"
+            android:hint="E-mail:"
+            android:inputType="textEmailAddress"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/adressField"
+            android:hint="Адрес:"
+            android:inputType="textPostalAddress"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+
+        <!--Поле ввода телефона-->
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneField"
+            android:hint="Введите телефон:"
+            android:inputType="phone"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/scheduleField"
+            android:hint="Расписание:"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/idclubField"
+            android:hint="id:"
+            android:inputType="text"
+            android:text=""
+            android:textColor="@color/colorPrimary"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textSize="20sp"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
